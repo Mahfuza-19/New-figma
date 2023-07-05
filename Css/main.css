@@ -354,10 +354,6 @@ nav .nav-right button {
   line-height: 140%;
   margin-bottom: 1.6rem;
 }
-#Phones-section .Imags-part {
-  width: 54.8rem;
-  height: 60.1rem;
-}
 
 #Money-section {
   background: #F8F9FF;
@@ -681,7 +677,7 @@ footer #links-section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 4rem;
+  margin-bottom: 9.8rem;
 }
 footer #links-section ol h4 {
   color: #FFF;
@@ -737,6 +733,11 @@ footer #end-section .footer-icons .t {
 footer #end-section .footer-icons .t i {
   font-size: 20px;
   color: #FFF;
+}
+footer .lainers {
+  width: 100%;
+  border: 1px solid #393939;
+  margin-bottom: 3.2rem;
 }
 
 /*# sourceMappingURL=main.css.map */
