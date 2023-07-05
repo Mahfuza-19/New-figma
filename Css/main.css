@@ -1,0 +1,742 @@
+@font-face {
+  font-family: "Rubik";
+  src: url(../Fonts/Rubik-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "SpaceGrotesk";
+  src: url(../Fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+.container {
+  width: 128rem;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  display: flex;
+  gap: 4.8rem;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+header {
+  background-color: rgba(191, 217, 255, 0.5);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 0 3.1rem 0;
+  align-items: center;
+  margin: 0 0 6.4rem 0;
+}
+nav .nav-left {
+  display: flex;
+  gap: 6rem;
+  align-items: center;
+}
+nav .nav-left .nav-log {
+  display: flex;
+  align-items: center;
+}
+nav .nav-left .nav-log img {
+  width: 5rem;
+  height: 3.9rem;
+  cursor: pointer;
+}
+nav .nav-left .nav-log p {
+  font-family: "Rubik";
+  font-size: 3.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+nav .nav-left .nav-link {
+  align-items: center;
+}
+nav .nav-left .nav-link a {
+  font-size: 1.8rem;
+  font-family: "Rubik";
+  font-weight: 400;
+  line-height: 155%;
+  letter-spacing: -0.054rem;
+  color: #434959;
+}
+nav .nav-right {
+  display: flex;
+  gap: 3.2rem;
+  align-items: center;
+}
+nav .nav-right a {
+  font-size: 1.8rem;
+  font-family: "Rubik";
+  font-weight: 400;
+  line-height: 155%;
+  letter-spacing: -0.054rem;
+  color: #434959;
+}
+nav .nav-right button {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1.8rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 155%;
+  letter-spacing: -0.018rem;
+  padding: 1.6rem 4rem;
+  border-radius: 1.6rem;
+  background-color: #007AFF;
+}
+
+#header-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 12.8rem;
+  gap: 4.5rem;
+}
+#header-section .header-section_imags {
+  width: 56.3rem;
+  height: 58rem;
+}
+#header-section .header-section_imags img {
+  margin-left: -3rem;
+}
+#header-section .header-section_text h1 {
+  color: #2B2828;
+  font-size: 5.6rem;
+  font-family: "Rubik";
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 2.4rem;
+}
+#header-section .header-section_text p {
+  width: 62.4rem;
+  color: #505056;
+  font-size: 1.8rem;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-bottom: 4rem;
+}
+#header-section .header-section_text .links {
+  display: flex;
+  gap: 3.2rem;
+}
+#header-section .header-section_text .links img {
+  cursor: pointer;
+}
+
+#log-section {
+  display: flex;
+  padding: 12.2rem 0;
+  justify-content: space-between;
+}
+#log-section h2 {
+  color: #2B2828;
+  text-align: center;
+  font-size: 4.8rem;
+  font-family: "SpaceGrotesk";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 1.6rem;
+}
+#log-section p {
+  color: #505056;
+  text-align: center;
+  font-size: 2.4rem;
+  font-family: Space Grotesk;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+#Brief-section {
+  padding: 11.2rem 0 13rem 0;
+}
+#Brief-section .matn {
+  padding: 0 20rem;
+}
+#Brief-section .matn h2 {
+  color: #2B2828;
+  text-align: center;
+  line-height: 120%;
+  font-family: "Rubik";
+  line-height: 120%;
+  margin-bottom: 2.4rem;
+  font-weight: 700;
+  font-size: 4.8rem;
+}
+#Brief-section .matn p {
+  color: #2B2828;
+  text-align: center;
+  line-height: 120%;
+  font-family: "Rubik";
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 13rem;
+}
+#Brief-section .booxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.8rem;
+}
+#Brief-section .booxes .shadov {
+  box-shadow: 0px 4px 6px -2px rgba(16, 24, 40, 0.03), 0px 12px 16px -4px rgba(16, 24, 40, 0.08);
+  border-radius: 0.8rem;
+}
+#Brief-section .booxes .box-4 {
+  padding: 2.4rem;
+}
+#Brief-section .booxes .box-4 .box-4_img {
+  width: 8rem;
+  height: 8rem;
+  background-color: #007AFF;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2.4rem;
+}
+#Brief-section .booxes .box-4 h3 {
+  color: #2B2828;
+  text-align: start;
+  font-size: 2rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  margin-bottom: 2.4rem;
+}
+#Brief-section .booxes .box-4 p {
+  color: #2B2828;
+  font-size: 1.6rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+#Air-section {
+  background-color: #1F2029;
+}
+#Air-section .sectioon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5.7rem;
+  gap: 17.2rem;
+}
+#Air-section .sectioon .Air-section_img img {
+  width: 57.9rem;
+  height: 54.3rem;
+}
+#Air-section .sectioon .Air-section_text h3 {
+  color: #FFF;
+  font-size: 3.2rem;
+  font-family: "Rubik";
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 1.8rem;
+}
+#Air-section .sectioon .Air-section_text p {
+  color: #FFF;
+  font-size: 1.6rem;
+  font-family: "Rubik";
+  font-weight: 400;
+  line-height: 120%;
+  margin-bottom: 3.6rem;
+}
+#Air-section .sectioon .Air-section_text .texts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.8rem;
+}
+#Air-section .sectioon .Air-section_text .texts .left .left_img {
+  width: 4.5rem;
+  height: 4.8rem;
+  border: 0.1rem solid #393939;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.2rem;
+  border-radius: 0.5rem;
+}
+#Air-section .sectioon .Air-section_text .texts .left h5 {
+  color: #FFF;
+  font-size: 1.8rem;
+  font-family: "Rubik";
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 1.2rem;
+}
+
+#Phones-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 5rem;
+  padding: 11.2rem 0;
+}
+#Phones-section .Text-part {
+  margin-left: 7rem;
+}
+#Phones-section .Text-part h2 {
+  color: #2B2828;
+  font-size: 4.8rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-top: 5rem;
+  margin-bottom: 2.4rem;
+}
+#Phones-section .Text-part p {
+  color: #505056;
+  font-size: 1.5rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-bottom: 4rem;
+}
+#Phones-section .Text-part .cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2.4rem;
+}
+#Phones-section .Text-part .cards .soz {
+  font-size: 1.6rem;
+}
+#Phones-section .Text-part .cards .icon {
+  width: 3.2rem;
+  height: 3.2rem;
+  background-color: #007AFF;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.6rem;
+}
+#Phones-section .Text-part .cards .icon i {
+  font-size: 1.6rem;
+  color: #FFF;
+}
+#Phones-section .Text-part .cards h4 {
+  color: #000;
+  font-size: 2rem;
+  font-family: "Rubik";
+  font-weight: 700;
+  line-height: 140%;
+  margin-bottom: 1.6rem;
+}
+#Phones-section .Imags-part {
+  width: 54.8rem;
+  height: 60.1rem;
+}
+
+#Money-section {
+  background: #F8F9FF;
+  margin-bottom: 9.6rem;
+}
+#Money-section .money {
+  padding: 11.2rem 0;
+}
+#Money-section .name {
+  padding: 0 30rem;
+  margin-bottom: 13rem;
+}
+#Money-section .name h3 {
+  color: #2B2828;
+  text-align: center;
+  font-size: 4.8rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 2.4rem;
+}
+#Money-section .name p {
+  color: #505056;
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-bottom: 12.9rem;
+}
+#Money-section .border {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#Money-section .border .box-1 {
+  background-color: #FFF;
+  padding: 3.2rem;
+  border-radius: 6px;
+}
+#Money-section .border .shaddov {
+  box-shadow: 0px 8px 8px -4px rgba(16, 24, 40, 0.03), 0px 20px 24px -4px rgba(16, 24, 40, 0.08);
+}
+#Money-section .border .shaddov .btn {
+  background-color: #007AFF;
+  color: #FFFFFF;
+}
+#Money-section .border .text-1 {
+  padding-top: 2.1rem;
+}
+#Money-section .border .text-1 .texttt {
+  display: flex;
+  align-items: end;
+  gap: 2.4rem;
+  margin-bottom: 2.1rem;
+}
+#Money-section .border .text-1 .texttt h2 {
+  font-size: 4.8rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: -0.048rem;
+}
+#Money-section .border .text-1 .texttt h5 {
+  color: var(--gray-500, #71717A);
+  font-size: 1.6rem;
+  font-family: "Rubik";
+  font-weight: 400;
+  line-height: 155%;
+  letter-spacing: 0.032rem;
+}
+#Money-section .border .text-1 p {
+  width: 25.9rem;
+  color: #505056;
+  font-size: 16px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-bottom: 2.9rem;
+}
+#Money-section .border .text-1 .lainer {
+  border: 1px solid rgba(121, 177, 237, 0.5);
+  margin-bottom: 3.2rem;
+}
+#Money-section .border .text-1 .text-2 {
+  display: flex;
+  justify-content: left;
+  gap: 0.8rem;
+}
+#Money-section .border .text-1 .text-2 .icon-1 {
+  width: 2rem;
+  height: 2rem;
+  background-color: #007AFF;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #F8F9FF;
+}
+#Money-section .border .text-1 button {
+  border-radius: 4px;
+  border: 1px solid #007AFF;
+  color: var(--besic-app-primary, #007AFF);
+  text-align: center;
+  font-size: 18px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  padding: 1.6rem 5.5rem;
+  background-color: #FFFFFF;
+}
+
+#Facebook-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 9.6rem;
+}
+#Facebook-section .Facebook-section_img {
+  width: 39.5rem;
+  height: 39.5rem;
+}
+#Facebook-section .Facebook-section_text {
+  background-color: rgba(190, 210, 239, 0.5);
+  padding: 4.8rem 8rem 4.8rem 16rem;
+  margin-left: -8rem;
+  border-radius: 12px;
+}
+#Facebook-section .Facebook-section_text p {
+  color: #505056;
+  font-size: 1.8rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-bottom: 4.8rem;
+}
+#Facebook-section .Facebook-section_text .section-text {
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#Facebook-section .Facebook-section_text .section-text .text-8 h4 {
+  color: #2B2828;
+  font-size: 2rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  margin-bottom: 1rem;
+}
+#Facebook-section .Facebook-section_text .section-text .iconss {
+  display: flex;
+  gap: 1.6rem;
+}
+#Facebook-section .Facebook-section_text .section-text .iconss .p {
+  opacity: 0.5;
+}
+#Facebook-section .Facebook-section_text .section-text .iconss .ican {
+  width: 3.8rem;
+  height: 3.8rem;
+  background-color: #007AFF;
+  display: flex;
+  border-radius: 50%;
+  color: #FFFFFF;
+  align-items: center;
+  justify-content: center;
+}
+#Facebook-section .Facebook-section_text .section-text .iconss .ican i {
+  font-size: 1.6rem;
+}
+
+#Download-section {
+  background-color: #007AFF;
+  padding: 9.6rem 0;
+}
+#Download-section h2 {
+  color: #FFF;
+  text-align: center;
+  font-size: 48px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 3.2rem;
+}
+#Download-section p {
+  width: 58.6rem;
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin: 0 auto;
+  margin-bottom: 4.2rem;
+}
+#Download-section form {
+  display: flex;
+  gap: 22px;
+  justify-content: center;
+  margin-bottom: 22px;
+}
+#Download-section form input {
+  border-radius: 4px;
+  background: #FFF;
+  border: none;
+  color: #9D9DBD;
+  font-size: 16px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%;
+  letter-spacing: 0.32px;
+  padding: 2rem 25rem 2rem 1.6rem;
+}
+#Download-section form button {
+  display: flex;
+  padding: 16px 28px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background-color: #2B2828;
+  color: var(--label-color-dark-primary, #FFF);
+  text-align: center;
+  font-size: 16px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%;
+  letter-spacing: 0.32px;
+  padding: 1.6rem 2.8rem;
+}
+#Download-section h5 {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  color: #FFF;
+  font-size: 16px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  text-align: center;
+  margin-left: -3rem;
+}
+
+#News-section {
+  padding: 8rem 0;
+}
+#News-section h2 {
+  color: #000;
+  font-size: 48px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: start;
+  margin-bottom: 6.4rem;
+}
+#News-section .section_boxes {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+#News-section .section_boxes .boxes {
+  border-radius: 10px;
+  background: #FFF;
+}
+#News-section .section_boxes .boxes .boxes_img {
+  width: 40.5rem;
+  height: 27.4rem;
+}
+#News-section .section_boxes .boxes .m {
+  padding: 3.2rem;
+}
+#News-section .section_boxes .boxes .m h5 {
+  color: #505056;
+  font-size: 16px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-bottom: 2.4rem;
+}
+#News-section .section_boxes .boxes .m h3 {
+  color: #2B2828;
+  font-size: 24px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  margin-bottom: 3.2rem;
+}
+#News-section .section_boxes .boxes .m p {
+  color: #505056;
+  /* Body/Default */
+  font-size: 18px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+#News-section .body {
+  box-shadow: 0px 4px 6px -2px rgba(16, 24, 40, 0.03), 0px 12px 16px -4px rgba(16, 24, 40, 0.08);
+}
+
+footer {
+  background-color: #0F172A;
+  padding: 11.2rem 0;
+}
+footer #links-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+footer #links-section ol h4 {
+  color: #FFF;
+  font-size: 20px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  margin-bottom: 2.4rem;
+}
+footer #links-section ol li {
+  margin-bottom: 2.4rem;
+}
+footer #links-section ol li a {
+  color: #E4E4E7;
+  font-size: 16px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+footer #links-section .footer-img {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+footer #end-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer #end-section p {
+  color: #A1A1AA;
+  font-size: 12.6px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.8px;
+}
+footer #end-section .footer-icons {
+  display: flex;
+  gap: 32px;
+}
+footer #end-section .footer-icons .t {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1E293B;
+}
+footer #end-section .footer-icons .t i {
+  font-size: 20px;
+  color: #FFF;
+}
+
+/*# sourceMappingURL=main.css.map */

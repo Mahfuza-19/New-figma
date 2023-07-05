@@ -1,0 +1,68 @@
+#Air-section {
+    background-color: #1F2029;
+
+    .sectioon {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 5.7rem;
+        gap: 17.2rem;
+
+        .Air-section_img {
+            img {
+                width: 57.9rem;
+                height: 54.3rem;
+            }
+        }
+
+        .Air-section_text {
+            h3 {
+                color: $color-6;
+                font-size: 3.2rem;
+                font-family: $font-1;
+                font-weight: 700;
+                line-height: 120%;
+                margin-bottom: 1.8rem;
+            }
+
+            p {
+                color: $color-6;
+                font-size: 1.6rem;
+                font-family: $font-1;
+                font-weight: 400;
+                line-height: 120%;
+                margin-bottom: 3.6rem;
+            }
+
+            .texts {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 1.8rem;
+
+                .left {
+                    .left_img {
+                        width: 4.5rem;
+                        height: 4.8rem;
+                        border: 0.1rem solid $color-17;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-bottom: 1.2rem;
+                        border-radius: 0.5rem;
+                    }
+
+                    h5 {
+                        color: $color-6 ;
+                        font-size: 1.8rem;
+                        font-family: $font-1;
+                        font-weight: 700;
+                        line-height: 120%;
+                        margin-bottom: 1.2rem;
+                    }
+                }
+            }
+        }
+
+    }
+}
