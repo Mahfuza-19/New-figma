@@ -1,11 +1,9 @@
 #Money-section {
     background: #F8F9FF;
     margin-bottom: 9.6rem;
-
     .money {
         padding: 11.2rem 0;
     }
-
     .name {
         padding: 0 30rem;
         margin-bottom: 13rem;
@@ -20,7 +18,6 @@
             line-height: 120%;
             margin-bottom: 2.4rem;
         }
-
         p {
             color: $color-5;
             text-align: center;
@@ -32,7 +29,6 @@
             margin-bottom: 12.9rem;
         }
     }
-
     .border {
         display: flex;
         align-items: center;
@@ -44,16 +40,13 @@
             border-radius: 6px;
 
         }
-
-        .shaddov {
+        .box-1:hover{
             box-shadow: 0px 8px 8px -4px rgba(16, 24, 40, 0.03), 0px 20px 24px -4px rgba(16, 24, 40, 0.08);
-            .btn{
+        }
+        .btn:hover{
                 background-color: $color-9;
                 color: $color-3;
-            }
         }
-
-
         .text-1 {
             padding-top: 2.1rem;
 
@@ -62,7 +55,6 @@
                 align-items: end;
                 gap: 2.4rem;
                 margin-bottom: 2.1rem;
-
                 h2 {
                     font-size: 4.8rem;
                     font-family: $font-1;
@@ -71,7 +63,6 @@
                     line-height: 120%;
                     letter-spacing: -0.048rem;
                 }
-
                 h5 {
                     color: var(--gray-500, #71717A);
                     font-size: 1.6rem;
@@ -81,7 +72,6 @@
                     letter-spacing: 0.032rem;
                 }
             }
-
             p {
                 width: 25.9rem;
                 color: $color-5;
@@ -92,19 +82,14 @@
                 line-height: 120%;
                 margin-bottom: 2.9rem;
             }
-
             .lainer {
                 border: 1px solid $color-18;
                 margin-bottom: 3.2rem;
             }
-
             .text-2 {
                 display: flex;
                 justify-content: left;
                 gap: 0.8rem;
-                // align-items: center;
-
-
                 .icon-1 {
                     width: 2rem;
                     height: 2rem;
@@ -116,7 +101,6 @@
                     color: #F8F9FF
                 }
             }
-
             button {
                 border-radius: 4px;
                 border: 1px solid $color-9;
